@@ -19,17 +19,17 @@ public class GreetingFooAspect {
 
     
 
-    @Before("GreetingServicePointcuts.greetingFooLoggerPointCut()") //Enlace con el metodo
-    public void loggerBefore(JoinPoint joinPoint){  //Une el joinpoint con la llamada a un metodo
+    @Before("GreetingServicePointcuts.greetingFooLoggerPointCut()") //Enlace con el método
+    public void loggerBefore(JoinPoint joinPoint){  //Une el joinpoint con la llamada a un método
         String method = joinPoint.getSignature().getName(); 
         String args = Arrays.toString(joinPoint.getArgs());
-        logger.info("Antes Foo: " + method + " invocado con los parametros " + args);
+        logger.info("Antes Foo: " + method + " invocado con los parámetros " + args);
     }
 
-     @After("GreetingServicePointcuts.greetingFooLoggerPointCut()") //Enlace con el metodo
-    public void loggerAfter(JoinPoint joinPoint){  //Une el joinpoint con la llamada a un metodo
+     @After("GreetingServicePointcuts.greetingFooLoggerPointCut()") //Enlace con el método
+    public void loggerAfter(JoinPoint joinPoint){  //Une el joinpoint con la llamada a un método
         String method = joinPoint.getSignature().getName(); 
         String args = Arrays.toString(joinPoint.getArgs());
-        logger.info("Despues Foo: " + method + " invocado con los parametros " + args);
+        logger.info("Despues Foo: " + method + " invocado con los parámetros " + args);
     }
 }
