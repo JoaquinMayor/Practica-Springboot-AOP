@@ -1,6 +1,6 @@
 # Utilización de Programación Orientada en Aspectos (AOP) en SpringBoot
 
-### En el siguiente código relacionado al manejo de la AOP, donde dentro de la carpera *aop* encontraremos diferentes archivos donde se profundiza mediante comentarios la funcionalidad y formas de trabajo mediante esta modalidad.
+### En el siguiente código esta relacionado al manejo de la AOP, donde dentro de la carpera *aop* encontraremos diferentes archivos donde se profundiza mediante comentarios la funcionalidad y formas de trabajo mediante esta modalidad.
 
 #### *Todos los archivos cuentan con sus respectivos comentarios para facilitar la comprensión *
 
