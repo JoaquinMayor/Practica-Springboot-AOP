@@ -7,9 +7,9 @@ import org.springframework.stereotype.Component;
 @Aspect
 @Component
 public class GreetingServicePointcuts {
-    @Pointcut("execution(String com.joaquin.curso.springboot.aop.springbootaop.services.GreetingService.sayHello(..))") //es una facil reutilizacion del package para los aspectos
+    @Pointcut("execution(String com.joaquin.curso.springboot.aop.springbootaop.services.GreetingService.sayHello(..))") //es una fácil reutilización del package para los aspectos
     public void greetingLoggerPointCut(){}
 
-    @Pointcut("execution(String com.joaquin.curso.springboot.aop.springbootaop.services.GreetingService.sayHello(..))") //es una facil reutilizacion del package para los aspectos
-    public void greetingFooLoggerPointCut(){} //Los nombre tienen que ser diferentes en diferentes clases
+    @Pointcut("execution(String com.joaquin.curso.springboot.aop.springbootaop.services.GreetingService.sayHello(..))") //es una fácil reutilización del package para los aspectos
+    public void greetingFooLoggerPointCut(){} //Los nombres tienen que ser diferentes en diferentes clases
 }

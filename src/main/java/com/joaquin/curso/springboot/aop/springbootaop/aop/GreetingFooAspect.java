@@ -30,6 +30,6 @@ public class GreetingFooAspect {
     public void loggerAfter(JoinPoint joinPoint){  //Une el joinpoint con la llamada a un método
         String method = joinPoint.getSignature().getName(); 
         String args = Arrays.toString(joinPoint.getArgs());
-        logger.info("Despues Foo: " + method + " invocado con los parámetros " + args);
+        logger.info("Después Foo: " + method + " invocado con los parámetros " + args);
     }
 }

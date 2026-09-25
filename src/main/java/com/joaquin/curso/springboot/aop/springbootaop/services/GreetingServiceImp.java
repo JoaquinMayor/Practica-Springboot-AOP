@@ -14,7 +14,7 @@ public class GreetingServiceImp  implements GreetingService{
 
     @Override
     public String sayHelloError(String person, String phrase) {
-        throw new RuntimeException("Algun error");
+        throw new RuntimeException("Algún error");
     }
     
 }
